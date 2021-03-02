@@ -1,0 +1,21 @@
+.game-container {
+  display: flex;
+  overflow-x: scroll;
+  position: relative;
+}
+
+.game-container::-webkit-scrollbar {
+  display: none;
+}
+
+.spotlight {
+  width: 64px;
+  height: 54px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background: url('../../../../../images/img_gamemeun_select.png') center /
+    contain no-repeat;
+  background-position-y: bottom;
+  transition: all 0.3s ease-in-out;
+}

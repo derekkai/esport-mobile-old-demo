@@ -1,0 +1,27 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  z-index: 11;
+  > div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    > div {
+      width: 100%;
+      height: 40%;
+      background: url('../../../../images/img_internet_off_h5.png') no-repeat center / contain;
+    }
+  }
+}
+
+.title {
+  color: #006dd8;
+  text-align: center;
+}

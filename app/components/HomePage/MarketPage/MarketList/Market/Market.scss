@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  padding: 30px 0px 20px;
+}
+
+.market-name-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  top: 0;
+}
+
+.market-name-text {
+  width: 20%;
+  text-align: center;
+  color: #006dd8;
+  font-size: 12px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.multiple {
+  margin-top: 26px;
+}
+
+.down {
+  margin-top: 18px;
+}

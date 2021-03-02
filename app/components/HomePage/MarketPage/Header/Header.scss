@@ -1,0 +1,12 @@
+.container {
+  transition: height 0.3s ease;
+  width: 100vw;
+  background: url('../../../../images/bg_gameresults.jpg') no-repeat center /
+    cover;
+  height: 217px;
+  overflow: hidden;
+}
+
+.close {
+  height: 0px;
+}

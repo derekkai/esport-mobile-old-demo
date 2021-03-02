@@ -1,0 +1,22 @@
+.mask {
+  padding: 20px;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  background: rgba(28, 28, 40, 0.9);
+}
+
+.close-btn {
+  background: url('../../../../../images/btn_search_close.png') center no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 4vh;
+  margin-left: auto;
+  display: block;
+  align-self: flex-end;
+}
+
+.content {
+  margin-top: 10%;
+}

@@ -1,0 +1,55 @@
+.container {
+  opacity: 0;
+  transition: opacity 100ms ease-in-out;
+}
+
+.show {
+  opacity: 1;
+}
+
+.sport-icon {
+  width: 16px;
+  margin: 0 8px;
+}
+
+.date-text {
+  font-size: 13px;
+  font-weight: bold;
+  color: #006dd8;
+}
+
+.title {
+  height: 25px;
+  background-color: #d9eeff;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.title-content-text {
+  font-size: 13px;
+  font-weight: bold;
+  color: #006dd8;
+  position: relative;
+  height: 25px;
+  flex-grow: 1;
+  line-height: 25px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0px 0px 10px;
+  align-items: center;
+}
+
+.competition-icon {
+  height: 25px;
+  width: 25px;
+  margin-left: auto;
+}
+
+.text {
+  position: absolute;
+  left: 0;
+}

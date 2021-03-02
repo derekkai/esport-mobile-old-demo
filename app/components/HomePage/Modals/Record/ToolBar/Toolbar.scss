@@ -1,0 +1,46 @@
+.container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.select {
+  min-width: 110px;
+  font-size: 14px;
+  outline: none;
+  padding-left: 18%;
+  // text-align-last: center;
+  width: 100%;
+  color: #3faafc;
+  background: transparent;
+  height: 30px;
+  border-image: url('../../../../../images/img_bg_record_list_l.png') 28 fill / 12px stretch;
+}
+
+.select-wrapper {
+  // width: 50%;
+  flex-grow: 1;
+  position: relative;
+  margin: 0 5px;
+}
+
+.arrow-btn {
+  pointer-events: none;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 7px;
+  right: 12px;
+  background: url('../../../../../images/btn_record_list_arrows.png')no-repeat center / contain;
+}
+
+.date-select {
+  @extend .select;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 33px 0 10px;
+}

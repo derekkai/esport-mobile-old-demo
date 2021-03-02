@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  padding: 0 10px;
+  > span {
+    font-size: 14px;
+    color: #006dd8;
+  }
+  > span:nth-child(1) {
+    width: 42px;
+      text-align: center;
+  }
+  > span:nth-child(2) {
+    width: calc((100% - 104px) / 2);
+    text-align: center;
+  }
+  > span:nth-child(3) {
+    width: calc((100% - 104px) / 2);
+    text-align: center;
+  }
+  > span:nth-child(4) {
+    width: 42px;
+    text-align: center;
+  }
+}
+
+.arrow-Btn {
+  background: url('../../../../../../images/btn_record_right_arrows.png')
+    no-repeat center / contain;
+  width: 20px;
+  height: 20px;
+}
+
+.total {
+  color: #1ac02e !important;
+}
+
+.negative {
+  color: #ff4b13 !important;
+}

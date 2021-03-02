@@ -1,0 +1,66 @@
+.container {
+  width: 100%;
+  height: 100%;
+  height: calc(100% - 70px);
+}
+
+.extend {
+  height: calc(100% - 30px);
+}
+
+.toolbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-image: url('../../../../images/img_bg_betslip_mid.png') 1 13 1 13
+  fill / 11px stretch;
+  min-height: 40px;
+}
+
+.clear-btn {
+  background: url('../../../../images/btn_betslip_clear.png') no-repeat
+    center / contain;
+  height: 30px;
+  width: 30px;
+}
+
+.content {
+  border-image: url('../../../../images/img_bg_betslip_mid.png') 1 13 1 13
+  fill / 11px stretch;
+  width: 100%;
+  flex-grow: 1;
+  height: calc(100% - 70px);
+}
+
+.reduce {
+  height: calc(100% - 110px);
+}
+
+.betType-select {
+  select {
+    background-position-x: right;
+    width: 90px;
+  }
+}
+
+.oddsformat-select {
+  margin: 0px 8px;
+  select {
+    background-position-x: right;
+    width: 75px;
+  }
+}
+
+.drops {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.system-num-select {
+  select {
+    background-position-x: right;
+  }
+}

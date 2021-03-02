@@ -1,0 +1,97 @@
+{
+  "code": 0,
+  "rid": "0",
+  "data": {
+    "8850891059156081000": {
+      "sport": {
+        "75": {
+          "competition": {
+            "22863": {
+              "game": {
+                "14600250": {
+                  "market": {
+                    "302536345": {
+                      "event": {
+                        "983402128": {
+                          "price": 1.94
+                        },
+                        "983402129": {
+                          "price": 1.76
+                        }
+                      }
+                    },
+                    "3027791545": {
+                      "id": 3027791545,
+                      "competition": {
+                        "id": 23848
+                      },
+                      "group_id": 136,
+                      "group_name": "地图一",
+                      "name": "地图一回合让局",
+                      "sport": {
+                        "id": 75
+                      },
+                      "type": "Map1RoundsHandicap",
+                      "game": {
+                        "id": 14651677,
+                        "type": 2
+                      },
+                      "subObject_count": 2,
+                      "event": {
+                        "984182981": {
+                          "id": 984182981,
+                          "base": -3.5,
+                          "competition": {
+                            "id": 23848
+                          },
+                          "market": {
+                            "id": 302779185,
+                            "type": "Map1RoundsHandicap"
+                          },
+                          "name": "rewound ",
+                          "order": 1,
+                          "price": 9.1,
+                          "sport": {
+                            "id": 75
+                          },
+                          "game": {
+                            "id": 14651677,
+                            "type": 2
+                          },
+                          "subObject_count": 0
+                        },
+                        "984182982": {
+                          "id": 984182982,
+                          "base": 3.5,
+                          "competition": {
+                            "id": 23848
+                          },
+                          "market": {
+                            "id": 302779185,
+                            "type": "Map1RoundsHandicap"
+                          },
+                          "name": "Genuine Gaming ",
+                          "order": 0,
+                          "price": 9.1,
+                          "sport": {
+                            "id": 75
+                          },
+                          "game": {
+                            "id": 14651677,
+                            "type": 2
+                          },
+                          "subObject_count": 0
+                        }
+                      }
+                    },
+                    "302536347": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

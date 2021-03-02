@@ -1,0 +1,146 @@
+.container {
+  width: 100vw;
+  min-height: 500px;
+  height: 100vh;
+  position: fixed;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 0px;
+  z-index: 11;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .3s linear;
+}
+
+.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.bet-count-tag {
+  margin-left: 16px;
+}
+
+.close-btn {
+  background: url('../../../images/btn_search_close.png') no-repeat center /
+    contain;
+  width: 40px;
+  height: 4vh;
+  display: block;
+  -ms-flex-item-align: end;
+  margin-left: auto;
+}
+
+.balance-text {
+  background: url('../../../images/img_money.png') no-repeat center / contain;
+  padding: 5px 15px;
+  span {
+    color: #006dd8;
+    font-size: 14px;
+  }
+}
+
+.main {
+  width: 100%;
+  height: 85vh;
+  position: relative;
+}
+
+
+.footer {
+  border-image: url('../../../images/img_bg_betslip_down.png') 16 fill / 12px
+    stretch;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 5px;
+  height: calc(100vw / 1.2 / 5.5);
+}
+
+.content-container {
+  height: calc(100% - 100px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.result-icon {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  margin-top: 10vh;
+}
+
+.success-word {
+  font-size: 18px;
+  font-weight: bold;
+  color: #00b711;
+  text-align: center;
+}
+
+.fail-word {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff3900;
+  text-align: center;
+}
+
+.result-bg {
+  transition: all 0.3s ease;
+  width: 0;
+  height: 0;
+  top: calc(10vh + 50px - 0.5vmax);
+  left: calc(50% - 0.5vmax);
+  position: absolute;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.success {
+  background: url('../../../images/bg_success.png');
+}
+
+.fail {
+  background: url('../../../images/bg_fail.png');
+}
+
+.show {
+  height: 200vmax;
+  width: 200vmax;
+  left: calc(50% - 0.5vh - 100vmax);
+  top: calc(10vh + 50px - 100vmax);
+}
+
+.ios {
+  .main {
+    height: 78vh;
+  }
+}
+
+.loading-word {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #006dd8;
+}
+
+.loading-bg {
+  background: #93d0ff;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+}

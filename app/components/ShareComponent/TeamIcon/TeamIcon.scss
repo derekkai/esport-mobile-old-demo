@@ -1,0 +1,41 @@
+.icon {
+  transition: opacity .3s ease-in;
+  display: block;
+  opacity: 0;
+}
+
+.default-icon {
+  background: url('../../../images/img_team_noshow.png') center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  > span {
+    color: white;
+    line-height: 1;
+  }
+}
+
+.medium {
+  width: 60px;
+  height: 60px;
+  > span {
+    font-size: 34px;
+  }
+}
+
+.small {
+  width: 34px;
+  height: 34px;
+  > span {
+    font-size: 18px;
+  }
+}
+
+.large {
+  width: 90px;
+  height: 90px;
+}
+
+.visible {
+  opacity: 1;
+}

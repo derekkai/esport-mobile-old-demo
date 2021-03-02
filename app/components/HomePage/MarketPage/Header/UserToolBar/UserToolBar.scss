@@ -1,0 +1,57 @@
+.record-btn {
+  border-image: url('../../../../../images/img_bg_odds.png') 1 3 1 3 fill / 1px 3px 1px 3px stretch;
+  padding: 4px 13px;
+}
+
+.balance-btn {
+  border-image: url('../../../../../images/img_money.png') 1 3 1 3 fill / 1px 3px 1px 3px stretch;
+  padding: 4px 13px;
+  white-space: nowrap;
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.right-area {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 12px;
+}
+
+.balance {
+  color: #006dd8;
+  font-size: 12px;
+}
+
+.go-back-arrow-btn {
+  background: url('../../../../../images/btn_back_arrows.png') no-repeat center / contain;
+  width: 16px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.left-area {
+  display: flex;
+  align-items: center;
+  max-width: calc(100% - 140px);
+}
+
+.competition-name-text {
+  color: white;
+  text-shadow: #3faafc 3px 0 10px;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

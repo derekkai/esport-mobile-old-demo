@@ -1,0 +1,45 @@
+.container {
+  border-image: url('../../../../../images/img_bg_menubar.png') 45 120 45 35 fill/
+    20px 50px 20px 15px stretch;
+  height: 50px;
+  width: 100%;
+  padding: 4px 16px 4px 27px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navs {
+  height: 100%;
+  position: relative;
+}
+
+.nav-btn {
+  height: 100%;
+  width: 80px;
+  line-height: 1;
+  span {
+    color: #3faafc;
+    text-shadow: #3faafc 3px 0 10px;
+  }
+}
+
+.active {
+  span {
+    color: white;
+  }
+}
+
+.close-btn {
+  background: url('../../../../../images/btn_betslip_close.png') no-repeat center / contain;
+  height: 30px;
+  width: 30px;
+}
+
+.active-bg {
+  background: url('../../../../../images/img_gameresultbar_select.png') no-repeat center / cover;
+  position: absolute;
+  height: 100%;
+  width: 80px;
+  transition: left .3s ease;
+}

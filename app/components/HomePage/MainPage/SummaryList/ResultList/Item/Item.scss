@@ -1,0 +1,143 @@
+.container {
+  height: 100px;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 100ms ease-in-out;
+}
+
+.show {
+  opacity: 1;
+}
+
+.title {
+  height: 25px;
+  background-color: #d9eeff;
+  display: flex;
+  align-items: center;
+}
+
+.sport-icon {
+  width: 16px;
+  margin: 0 8px;
+}
+
+.game-container {
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.competition-name-text {
+  font-size: 12px;
+  font-weight: bold;
+  color: #006dd8;
+}
+
+
+
+.time-text {
+  font-size: 12px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 16px;
+  width: 40px;
+  min-width: 40px;
+  color: #006dd8;
+}
+
+.team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc((100% - 140px - 104px) /2);
+  height: 100%;
+}
+
+.team-name-text {
+  font-size: 12px;
+  text-align: center;
+  color: #006dd8;
+  line-height: 1.3;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.odds-btn {
+  background: url('../../../../../../images/img_bg_odds.png');
+  background-size: contain;
+  width: 70px;
+  height: 35px;
+  span {
+    color: white;
+  }
+}
+
+.odds {
+  position: relative;
+  display: flex;
+}
+
+.market-count-container {
+  display: flex;
+  min-width: 40px;
+}
+
+.separate {
+  background: url('../../../../../../images/img_gamelist_line.png') center no-repeat;
+  background-size: contain;
+  width: 10px;
+  margin-right: 15px;
+}
+
+.market-count-text {
+  font-size: 14px;
+  font-weight: bold;
+  color: #006dd8;
+  text-align: center;
+}
+
+.team-icon {
+  margin: 5px 0px;
+}
+
+.arraw-btn {
+  background: url('../../../../../../images/btn_gamercend_arrow_right.png') no-repeat center / contain;
+  min-width: 20px;
+  height: 40px;
+}
+
+.champion-content {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  h4 {
+    color: #006dd8;
+    margin-left: 10px;
+  }
+}
+
+.win-flag {
+  background: url('../../../../../../images/img_win.png') no-repeat center / contain;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  display: none;
+}
+
+.left {
+  display: block;
+  left: -11px;
+  top: -13px;
+}
+
+.right {
+  display: block;
+  right: -11px;
+  top: -13px;
+}

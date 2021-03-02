@@ -1,0 +1,76 @@
+@import 'variables.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #006dd8;
+  font-size: 18px;
+  position: relative;
+}
+
+.flicker {
+  animation: flicker 1s ease infinite alternate-reverse;
+}
+
+@keyframes flicker {
+  from {
+    -webkit-filter: brightness(0.9);
+  }
+  to {
+    -webkit-filter: brightness(1.1);
+  }
+}
+
+.arrow {
+  display: none;
+}
+
+.img4 {
+  .arrow {
+    display: block;
+    width: 20px;
+    height: 10px;
+    position: absolute;
+  }
+  .up {
+    background: url('../../../images/img_oddsup.png') no-repeat center / contain;
+    top: -12px;
+  }
+
+  .down {
+    background: url('../../../images/img_oddsdown.png') no-repeat center / contain;
+    bottom: -12px;
+  }
+
+  .left {
+    left: -20px;
+    bottom: 18px;
+    top: 14px;
+  }
+
+  .right {
+    bottom: 18px;
+    top: 14px;
+    right: -20px;
+  }
+}
+
+.img2right, .img2left {
+  .arrow {
+    display: block;
+    width: 20px;
+    height: 10px;
+    position: absolute;
+  }
+
+  .up {
+    background: url('../../../images/img_bg_gameodds_arrow_green@2x.png') no-repeat center / contain;
+    bottom: -12px;
+  }
+
+  .down {
+    background: url('../../../images/img_bg_gameodds_arrow_red@2x.png') no-repeat center / contain;
+    bottom: -12px;
+  }
+}

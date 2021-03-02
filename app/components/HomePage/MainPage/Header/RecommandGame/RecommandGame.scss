@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+}
+
+.arrow-btn {
+  background-size: contain;
+  height: 48px;
+  min-width: 32px;
+  z-index: 1;
+}
+
+.right-arrow-btn {
+  @extend .arrow-btn;
+  background: url('../../../../../images/btn_gamercend_arrow_right.png')
+    no-repeat center / contain;
+}
+
+.left-arrow-btn {
+  @extend .arrow-btn;
+  background: url('../../../../../images/btn_gamercend_arrow_left.png')
+    no-repeat center / contain;
+}
+
+.swiper-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 120px;
+}
+
+.swiper {
+  height: 120px;
+}

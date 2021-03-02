@@ -1,0 +1,84 @@
+.container {
+  padding: 3px 18px 0px 20px;
+  border-image: url('../../../../images/img_bg_betslip_top.png') 16 fill /
+    12px stretch;
+  // height: 55px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+  height: calc(100vw / 1.2 / 6.14);
+  width: 100%;
+  max-height: 50px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+}
+
+.panel-title {
+  color: white;
+}
+
+.setting-btn {
+  background: url('../../../../images/btn_betslip_setup@2x.png') no-repeat
+    center / contain;
+  width: 40px;
+  height: 40px;
+}
+
+.panel {
+  width: 100%;
+  height: 0px;
+  background: #1161b0;
+  border-image: url('../../../../images/bg_betlist_setup@2x.png') 1 12 1 10
+    fill / 5px stretch;
+  position: absolute;
+  overflow: hidden;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  opacity: 0;
+  transition-property: opacity, height;
+  transition-duration: 0s, .3s;
+  transition-delay: .3s, 0s;
+}
+
+.open {
+  transition: height 0.3s ease;
+  opacity: 1;
+  height: 130px;
+}
+
+.label {
+  color: white;
+  font-weight: lighter;
+}
+
+.title {
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.radio {
+  background: url('../../../../images/btn_betslip_option@2x.png') no-repeat
+    center / contain;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin: 5px 0px;
+}
+
+.selected {
+  background-image: url('../../../../images/btn_betslip_option_chose@2x.png');
+}

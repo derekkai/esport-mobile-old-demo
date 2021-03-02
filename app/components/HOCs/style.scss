@@ -1,0 +1,7 @@
+.loading-wrapper {
+  margin-top: calc((100vh - 320px) / 4);
+  height: calc(100vh - 320px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

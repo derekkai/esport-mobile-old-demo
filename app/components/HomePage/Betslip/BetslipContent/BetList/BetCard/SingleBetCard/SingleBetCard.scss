@@ -1,0 +1,94 @@
+.container {
+  border-image: url('../../../../../../../images/img_bg_betslip_single.png') 30
+    28 28 30 fill / 14px stretch;
+  width: 100%;
+  height: 100px;
+}
+
+.title {
+  height: 30%;
+  padding: 5px 10px 0px 20px;
+  display: flex;
+  align-items: center;
+  // padding: 0px 5px 0px 20px;
+  justify-content: space-between;
+}
+
+.title-text {
+  color:#004c9b;
+  // -webkit-box-orient: vertical;
+  // -webkit-line-clamp: 1;
+  // text-overflow: ellipsis;
+  // overflow: hidden;
+  // display: -webkit-box;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.remove-btn {
+  background: url('../../../../../../../images/btn_betslip_close_b.png') no-repeat center / contain;
+  height: 90%;
+  width: 20px;
+}
+
+.content {
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 18px;
+}
+
+.footer {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 18px 12px;
+}
+
+.section {
+  margin-left: 3%;
+  line-height: 1.2;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  div {
+    color: #006dd8;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    font-size: 14px;
+  }
+}
+
+.stake-input {
+  background: transparent;
+  border-image: url('../../../../../.././../images/btn_betslips_single_money2.png') 2 10 2 10 fill / 1px 10px 1px 10px stretch;
+  width: 80px;
+  text-align: center;
+  color: #006dd8;
+  min-width: 80px;
+  span {
+    font-size: 13px;
+  }
+}
+
+.left-area {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.date-text {
+  font-size: 14px;
+  color: #004c9b;
+}
+
+.earn-text {
+  font-size: 14px;
+  color: #004c9b;
+}

@@ -1,0 +1,18 @@
+.select {
+  color: #006dd8;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  line-height: 1;
+  background: url('../../../images/btn_betslip_downarrows.png') no-repeat right / auto 30% transparent;
+  -webkit-appearance: none;
+  background-position-x: 85px;
+  padding-right: 22px;
+  height: 30px;
+}
+
+.reverse {
+  select {
+    background: url('../../../images/btn_betslip_listarrow02.png') no-repeat right / auto 30% transparent;
+  }
+}

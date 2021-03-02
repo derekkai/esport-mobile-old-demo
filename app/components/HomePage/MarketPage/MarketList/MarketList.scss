@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: thin #5fb7fd solid;
+  margin-bottom: 50px;
+  margin-top: -5px;
+}
+
+.loading-wrapper {
+  margin-top: calc((100vh - 320px) / 4);
+  height: calc(100vh - 320px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list {
+  width: 100%;
+  > li:nth-child(even) {
+    background-color: white;
+  }
+  > li:nth-child(odd) {
+    background-color: #d9eeff;
+  }
+  > li {
+    padding: 15px 0px;
+  }
+}
+
+.empty-text {
+  text-align: center;
+  color: #006dd8;
+  margin-top: 5px;
+}
+
+.content-wrapper {
+  width: 100%;
+}

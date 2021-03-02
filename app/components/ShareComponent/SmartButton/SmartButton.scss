@@ -1,0 +1,166 @@
+.tag {
+  cursor: none;
+  pointer-events: none;
+}
+
+.img2 {
+  width: 100%;
+  height: 100%;
+  background-size: auto 100%;
+  div {
+    color: #006dd8;
+    font-size: 12px;
+  }
+}
+
+.img2left {
+  @extend .img2;
+  &-normal {
+    border-image: url('../../../images/img_bg_gameodds_left.png') 2 fill / 1px
+      stretch;
+  }
+  &-up {
+    border-image: url('../../../images/img_bg_gameodds_left_green@2x.png') 2
+      fill / 1px stretch;
+    div {
+      color: white;
+    }
+  }
+  &-down {
+    border-image: url('../../../images/img_bg_gameodds_left_red@2x.png') 2 fill /
+      1px stretch;
+    div {
+      color: white;
+    }
+  }
+  &-lock {
+    border-image: url('../../../images/img_bg_gameodds_left_lock@2x.png') 2
+      fill / 1px stretch;
+  }
+  &-select {
+    border-image: url('../../../images/img_bg_gameodds_left_chose@2x.png') 2
+      fill / 1px stretch;
+    div {
+      color: white;
+    }
+  }
+}
+
+.img2right {
+  @extend .img2;
+  &-normal {
+    border-image: url('../../../images/img_bg_gameodds_right.png') 2 fill / 1px
+      stretch;
+  }
+  &-up {
+    border-image: url('../../../images/img_bg_gameodds_right_green@2x.png') 2
+      fill / 1px stretch;
+    div {
+      color: white;
+    }
+  }
+  &-down {
+    border-image: url('../../../images/img_bg_gameodds_right_red@2x.png') 2
+      fill / 1px stretch;
+    div {
+      color: white;
+    }
+  }
+  &-lock {
+    border-image: url('../../../images/img_bg_gameodds_right_lock@2x.png') 2
+      fill / 1px stretch;
+  }
+  &-select {
+    border-image: url('../../../images/img_bg_gameodds_right_chose@2x.png') 2
+      fill / 1px stretch;
+    div {
+      color: white;
+    }
+  }
+}
+
+.img4 {
+  min-width: 58px;
+  height: 35px;
+  background-size: contain !important;
+  line-height: 34px;
+  div {
+    color: white;
+    font-size: 12px;
+  }
+  &-normal {
+    border-image: url('../../../images/img_bg_odds.png') 2 fill / 2px stretch;
+  }
+  &-lock {
+    pointer-events: none;
+    border-image: url('../../../images/img_bg_odds_nobet@3x.png') 2 fill / 2px stretch;
+  }
+  &-select {
+    border-image: url('../../../images/img_bg_odds_select.png') 2 fill / 2px stretch;
+  }
+  &-up {
+    border-image: url('../../../images/img_bg_oddsup.png') 2 fill / 2px stretch;
+  }
+  &-down {
+    border-image: url('../../../images/img_bg_oddsdown.png') 2 fill / 2px stretch;
+  }
+  &-cancel {
+    border-image: url('../../../images/img_bg_odds2.png') 2 fill / 2px stretch;
+  }
+}
+
+.img6 {
+  width: 50px;
+  height: 26px;
+  &-normal {
+    background: url('../../../images/btn_record.png') no-repeat center / contain;
+  }
+  div {
+    color: white;
+    font-size: 16px;
+  }
+}
+
+.img7 {
+  height: 24px;
+  padding: 0 6px;
+  min-width: 60px;
+  div {
+    color: white;
+    font-size: 16px;
+  }
+  &-normal {
+    border-image: url('../../../images/img_bg_betslip_series_odds.png') 3 fill / 1px stretch;
+  }
+  &-up {
+    border-image: url('../../../images/img_bg_betslip_odds_g.png') 3 fill / 1px stretch;
+  }
+  &-down {
+    border-image: url('../../../images/img_bg_betslip_odds_r.png') 3 fill / 1px stretch;
+  }
+  &-lock {
+    border-image: url('../../../images/img_bg_betslip_odds_r.png') 3 fill / 1px stretch;
+  }
+}
+
+.img8 {
+  width: 70px;
+  height: 35px;
+  line-height: 34px;
+  div {
+    color: white;
+    font-size: 12px;
+  }
+  &-green {
+    background: url('../../../images/img_bg_oddsup.png') no-repeat center /
+      contain;
+  }
+  &-red {
+    background: url('../../../images/img_bg_oddsdown.png') no-repeat center /
+      contain;
+  }
+  &-orange {
+    background: url('../../../images/img_bg_odds_select.png') no-repeat center /
+      contain;
+  }
+}

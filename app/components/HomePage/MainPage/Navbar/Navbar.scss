@@ -1,0 +1,84 @@
+.container {
+  box-shadow: 0px 1.5px 2.8px 0.2px rgba(98, 136, 148, 0.5);
+  background-image: linear-gradient(
+    to top,
+    #006dd8,
+    rgba(0, 28, 62, 0.99) 52%,
+    #01316c
+  );
+  height: 120px;
+  width: 100%;
+  padding: 6px 0px;
+}
+
+.top-navbar {
+  height: 50px;
+  border-image: url('../../../../images/img_bg_menubar.png');
+  border-image-slice: 45 100 45 35;
+  border-style: solid;
+  border-width: 20px 35px 20px 15px;
+  border-image-repeat: stretch;
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  position: relative;
+}
+
+.navbar-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.tab {
+  text-shadow: #3faafc 3px 0 10px;
+  color: #3faafc;
+  width: 33%;
+  text-align: center;
+}
+
+.highlight {
+  color: white;
+}
+
+.tab-highlight-bg {
+  background: url('../../../../images/img_menubar_select.png') center no-repeat;
+  background-size: 100% 44px;
+  position: absolute;
+  width: 33%;
+  height: 50px;
+  transition: left .3s ease;
+  left: 0px;
+}
+
+.filter-btn {
+  background: url('../../../../images/btn_gamemeun_search.png') center no-repeat;
+  min-width: 72px;
+  height: 100%;
+  background-size: contain;
+  margin-left: -8px;
+  filter: brightness(1);
+  transition: all .3s ease;
+}
+
+.disable {
+  pointer-events: none;
+  filter: brightness(0.5);
+}
+
+.game-navbar {
+  width: 100%;
+  height: 50%;
+  margin-top: 6px;
+  display: flex;
+}
+
+.fixed {
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}

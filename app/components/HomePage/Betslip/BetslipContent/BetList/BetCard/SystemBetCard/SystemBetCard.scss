@@ -1,0 +1,86 @@
+.container {
+  border-image: url('../../../../../../../images/img_bg_betslip_series.png') 15 fill / 9px stretch;
+  width: 100%;
+  height: 80px;
+}
+
+.title {
+  height: 30px;
+  padding: 5px 10px 0px 20px;
+  display: flex;
+  align-items: center;
+  // padding: 0px 5px 0px 20px;
+  justify-content: space-between;
+}
+
+.title-text {
+  color:#004c9b;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.remove-btn {
+  background: url('../../../../../../../images/btn_betslip_close_b.png') no-repeat center / contain;
+  height: 90%;
+  width: 20px;
+}
+
+.content {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.section {
+  margin-left: 3%;
+  line-height: 1.2;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  div {
+    color: #006dd8;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    font-size: 14px;
+  }
+}
+
+.left-area {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.date-text {
+  font-size: 13px;
+  color: #004c9b;
+  min-width: 40px;
+  width: 40px;
+}
+
+.close {
+  border-image-source: url('../../../../../../../images/img_bg_betslip_series_r.png');
+  .title-text{
+    color: #c30000;
+  }
+  .remove-btn {
+    background-image: url('../../../../../../../images/btn_betslip_close_r.png');
+  }
+  // .odds {
+  //   background: url('../../../../../../../../images/img_bg_betslip_odds_r.png');
+  // }
+  .date-text {
+    color: #c30000;
+  }
+  .section {
+    div {
+      color: #c30000;
+    }
+  }
+}

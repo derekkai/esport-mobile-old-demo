@@ -1,0 +1,35 @@
+.betslip-tag {
+  background: url('../../../images/img_bg_betslip.png') 0px center / contain
+    no-repeat;
+  width: 100px;
+  height: 48px;
+  position: fixed;
+  bottom: 3px;
+  right: 0px;
+  padding-left: 40px;
+  transition: transform 0.3s ease;
+  span {
+    color: white;
+  }
+  transform: translateX(calc(100% + 8px));
+}
+
+.showTag {
+  transform: translateX(0%);
+}
+
+.badges {
+  top: -8px;
+  left: -8px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  position: absolute;
+  background: url('../../../images/img_betslip_quantity.png') center / contain
+    no-repeat;
+
+  span {
+    color: #016dd9;
+    font-weight: 500;
+  }
+}

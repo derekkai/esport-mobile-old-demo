@@ -1,0 +1,18 @@
+.btn {
+  border-image: url('../../../images/btn_search_title_noselect.png') 40 fill /
+    14px stretch;
+  border-style: solid;
+  height: 40px;
+  width: 45%;
+  line-height: 10px;
+  span {
+    color: white;
+    text-shadow: #3faafc 3px 0 10px;
+  }
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}

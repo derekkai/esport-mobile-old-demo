@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  padding: 0 10px 0 20px;
+}
+
+.section {
+  width: 30%;
+  min-width: 90px;
+}
+
+.id-text {
+  font-size: 15px;
+  color: #006dd8;
+}
+
+.time-text {
+  font-size: 15px;
+  color: #3faafc;
+}
+
+.type-name {
+  width: 20%;
+  text-align: center;
+  color: #006dd8;
+}
+
+.amount-text {
+  width: 25%;
+  text-align: center;
+  color: #006dd8;
+}
+
+.result-text {
+  width: 25%;
+  text-align: center;
+  color: #1ac02e;
+}
+
+.arrow-Btn {
+  background: url('../../../../../../images/btn_record_right_arrows.png')
+    no-repeat center / contain;
+  width: 20px;
+  height: 20px;
+}
+
+.negative {
+  color: #fd5727;
+}
+
+.normal {
+  color: #006dd8 !important;
+}

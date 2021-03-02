@@ -1,0 +1,90 @@
+@import 'variables.scss';
+
+html,
+body {
+  // height: 100%;
+  // width: 100%;
+  line-height: 1.5;
+}
+
+body {
+  background-size: cover;
+  // overflow: hidden;
+  overflow: auto;
+  font-family: Microsoft Yahei, PingFangSC-Regular, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+#app {
+  // height: 100%;
+  // width: 100%;
+  // min-height: 100%;
+  // min-width: 100%;
+  // overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+}
+
+p,
+label {
+  // font-family: Georgia, Times, 'Times New Roman', serif;
+  line-height: 1.5em;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+button,
+img {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  outline: none;
+  border-width: 0px;
+  cursor: pointer;
+  background: transparent;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  border: 0;
+  outline: 0;
+}
+
+* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+.maintain-bg {
+  background: url('../images/maintain.jpg') no-repeat center / cover;
+  width: 100vw;
+  height: 100vh;
+}

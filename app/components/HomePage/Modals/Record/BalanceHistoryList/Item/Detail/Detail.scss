@@ -1,0 +1,98 @@
+.mask {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  background: rgba(28, 28, 40, 0.9);
+  padding: 20px;
+  left: 0;
+  z-index: 12;
+}
+
+.close-btn {
+  background: url('../../../../../../../images/btn_search_close.png') center no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 4vh;
+  margin-left: auto;
+  display: block;
+  align-self: flex-end;
+}
+
+.container {
+  margin-top: 10%;
+  height: 75%;
+}
+
+.header {
+  border-image: url('../../../../../../../images/img_betrecord_title.png') 30 fill / 30px stretch;
+  width: 100%;
+  padding: 10px 20px 10px 15px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  span {
+    color: white;
+    font-size: 12px;
+  }
+  .section {
+    width: 70px;
+    div {
+      color: white;
+      font-size: 12px;
+    }
+  }
+  .total {
+    width: calc((100% - 70px) / 2);
+    text-align: center;
+    color: #1ac02e;
+  }
+  .balance {
+    width: calc((100% - 70px) / 2);
+    text-align: right;
+  }
+}
+
+.list {
+  overflow: auto;
+  max-height: calc(100% - 50px);
+  background: white;
+  box-shadow: inset 0px -5px 6px 4px #d9eeff;
+  > li:nth-child(odd) {
+    background-color: #d9eeff;
+  }
+  > li:nth-child(even) {
+    background-color: white;
+  }
+  > li {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 3%;
+    font-size: 15px;
+    .time {
+      width: 30%;
+      color: #006dd8;
+    }
+    .amount {
+      width: 35%;
+      text-align: center;
+      color: #1ac02e;
+    }
+    .balance {
+      width: 35%;
+      color: #006dd8;
+      text-align: right;
+    }
+  
+  }
+}
+
+.negative {
+  color: #fd5727 !important;
+}
+
+.content {
+  height: 100%;
+}

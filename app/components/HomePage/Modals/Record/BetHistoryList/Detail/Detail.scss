@@ -1,0 +1,89 @@
+.mask {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  background: rgba(28, 28, 40, 0.9);
+  padding: 20px;
+  left: 0;
+  z-index: 12;
+}
+
+.close-btn {
+  background: url('../../../../../../images/btn_search_close.png') center
+    no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 4vh;
+  margin-left: auto;
+  display: block;
+  align-self: flex-end;
+}
+
+.container {
+  margin-top: 10%;
+  height: 75%;
+}
+
+.content {
+  width: 100%;
+  height: calc(100% - 50px);
+}
+
+.header {
+  border-image: url('../../../../../../images/img_betrecord_title.png') 30
+    fill / 30px stretch;
+  width: 100%;
+  height: 50px;
+  padding: 10px 20px 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  > span {
+    width: 33%;
+  }
+}
+
+.section {
+  div {
+    font-size: 13px;
+    color: white;
+    text-shadow: #3faafc 3px 0 10px;
+  }
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  text-shadow: #3faafc 3px 0 10px;
+}
+
+.result-amount-text {
+  text-align: right;
+  color: white;
+  font-size: 13px;
+}
+
+.top-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 15px;
+  background: #006dd8;
+  span {
+    color: white;
+    font-size: 14px;
+  }
+}
+
+.list-wrapper {
+  height: 100%;
+}
+
+.list {
+  background: white;
+  box-shadow: inset 0px -5px 6px 4px #d9eeff;
+  overflow: auto;
+  max-height: calc(100% - 20px);
+}
